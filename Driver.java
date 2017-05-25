@@ -9,13 +9,13 @@ public class Driver{
 
         r.login("Testaccount", "UMASS");
 
-        r.addAssignment("Hw1","Circuits", "12/14/16", "09:00pm", "5", "2", "");
-        r.addAssignment("Hw2","Comp Sys", "12/13/16", "07:00pm", "4", "3", "");
-        r.addAssignment("Hw3","Hardware", "12/15/16", "11:00pm", "1", "1", "");
-        r.addAssignment("Hw4","Har", "12/18/16", "06:00am", "3", "3", "");
-        r.addAssignment("Hw5","math", "12/24/16", "06:00am", "5", "1", "");
-        r.addAssignment("Hw6","english", "12/22/16", "10:00pm", "10", "1", "");
-        r.addAssignment("Hw7","dsds", "12/30/16", "12:00pm", "40", "3", "");
+        r.addAssignment("Hw1","Circuits", "05/29/17", "09:00pm", "5", "2", "");
+        r.addAssignment("Hw2","Comp Sys", "05/29/17", "07:00pm", "4", "3", "");
+        r.addAssignment("Hw3","Hardware", "05/29/17", "11:00pm", "1", "1", "");
+        r.addAssignment("Hw4","Har", "05/29/17", "06:00am", "3", "3", "");
+        r.addAssignment("Hw5","math", "05/29/17", "06:00am", "5", "1", "");
+        r.addAssignment("Hw6","english", "05/29/17", "10:00pm", "10", "1", "");
+        r.addAssignment("Hw7","dsds", "05/29/17", "12:00pm", "2", "3", "");
 
         
         r.addEvent("Electronics","MoWe","12/05/16", "10:00am", "12/05/16", "11:00am","Elab 202");

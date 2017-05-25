@@ -372,9 +372,11 @@ public class Server {
                     
                     Assignment curAssign = tempAssign.get(assignIter.nextIndex());
 
+
                     if(Integer.parseInt(curAssign.getAppPriority()) > 20){
                         int hoursToComp = Integer.parseInt(curAssign.getCompletionTime());
                         int daysTillDue = getDaysTillDue(curAssign, schedDate);
+                        //System.out.println(curAssign.getAssignName() + "    " + daysTillDue);
                         int workHours = (int)(hoursToComp/daysTillDue + 1);        //hours should be worked on that day
                     
                         if(workHours > curBlockFreeTime)
