@@ -15,7 +15,7 @@ public class Driver{
         r.addAssignment("Hw4","Har", "05/29/17", "06:00am", "3", "3", "");
         r.addAssignment("Hw5","math", "05/29/17", "06:00am", "5", "1", "");
         r.addAssignment("Hw6","english", "05/29/17", "10:00pm", "10", "1", "");
-        r.addAssignment("Hw7","dsds", "05/29/17", "12:00pm", "2", "3", "");
+        r.addAssignment("Hw7","dsds", "05/29/17", "12:00pm", "40", "3", "");
 
         
         r.addEvent("Electronics","MoWe","12/05/16", "10:00am", "12/05/16", "11:00am","Elab 202");
